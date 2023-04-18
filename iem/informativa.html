@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="esti.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+<script language="JavaScript">
+		function runReset(form,button){
+			document.getElementById("resultado").innerHTML="";
+			return; 
+		}
+        function runSubmit(form,button){
+    	var grados = document.getElementById("grados").value;
+    	document.getElementById("resultado").innerHTML=("El triángulo es:" + resultado);
+    }
+	</script>
+
+</head>
+<body>
+
+	<form name="text" action="" method="get">
+		<label>Valor del Ángulo:</label>
+		<input type="number" name="grados" id="grados">
+		<br><br><br>
+		<input type="button" value="enviar" onclick="runSubmit(this.form,this)">
+		<input type="button" value="borrar" onclick="runSubmit(this.form,this)">
+	</form>
+	</center>
+	<br><br>
+	<center>
+		<div id="resultado"></div>
+	</center>
+
+</body>
+</html>

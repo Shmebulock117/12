@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+}
+h1{
+    font-family: 'Comic Neue', cursive;
+}
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"),
+    url("fonts/Roboto-Bold.ttf")format("truetype");
+}
+.roboto{
+    font-family: "roboto";
+}
+.n{
+font-family: 'Noto Serif Lao', serif;
+}
+.O{
+    font-family: 'Open Sans', sans-serif;
+}
+.U{
+    font-family: 'Ubuntu', sans-serif;
+}
+.k{
+    font-family: 'Kanit', sans-serif;
+}
+.s{
+    font-family: 'Smokum', cursive;
+}
+.Iz{
+    text-align: left;
+    
+}   
+.Der{
+    text-align: right;
+    
+}
+.Cen{
+    text-align: center;
+    
+}
+.Jus{
+    text-align: justify;
+}
+.inter1{
+ line-height: 1.2;
+ font-size: 1em
+
+}
+.inter2{
+    line-height: 1.5; 
+    font-size: 1e
+}
+.libre{
+    font-family: Roboto;
+    font-size: 72px;
+    background: -webkit-linear-gradient(left top, red,blue);
+    background: linear-gradient(to bottom right, red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.libre:hover{
+    font-family: Roboto;
+    font-size: 72px;
+    background: -webkit-linear-gradient(left top, blue,green);
+    background: linear-gradient(to bottom right, blue,green);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 1s all ease;
+    transform: scale(1.1);
+    transform: rotate(360deg);
+}

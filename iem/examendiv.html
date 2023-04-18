@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="esti.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Angulos</title>
+	<script language="JavaScript">
+		function runReset(form,button){
+			document.getElementById("resultado").innerHTML="";
+			return; 
+		}
+        function runSubmit(form,button){
+    	var grados = document.getElementById("grados").value;
+
+    	 if (gados>=0 && gados<=89) {
+		x="Agudo";
+		foto="fotos/r.jpeg";
+		
+	}else if ( edad>=1 && edad<=89) {                                                                  
+		x="Recto";
+		foto="fotos/be.jpg";
+	}else if (edad>=3 && edad<=5) {
+		x="Llano";
+		foto="fotos/k.jpg";
+	}else if (edad>=6 && edad<=11){
+		x="Obtuso";
+		foto="fotos/pri.jpg";		
+	}else if (edad>=12 && edad<=15){
+		x="Concavo";
+		foto="fotos/sec.jpg";		
+
+
+    	document.getElementById("resultado").innerHTML=("El triángulo es un:" + resultado);
+    }
+	</script>
+</head>
+
+<body>
+	<br>
+	<center><h1>Ángulos</h1>
+		<br>
+		<center><h2>¿Qué es un ángulo? <br>
+			Un ángulo es la porción del plano comprendida entre dos semirrectas que tienen un origen común.<br><br>
+			<center>¿Cuáles son las partes de un ángulo?</center><br>
+			En un plano, dos semirrectas con un origen común siempre generan dos ángulos.
+			<br>
+            En el dibujo podemos ver dos, el A y el B. Los cuales están compuestos por dos lados y un vértice en el origen cada uno.
+            <br><br><br>
+            <img src="img/1.png">
+            <br><br><br>
+            Tipos de ángulos<br>
+            Hay varios tipos según su tamaño, es decir, en función de los grados que tenga:<br>
+            Ángulo agudo: Mide menos de 90° y más de 0 °.<br>
+            Ángulo recto: Mide 90° y sus lados son siempre perpendiculares entre sí.<br>
+            Ángulo obtuso: Mayor que 90° pero menor que 180°.<br>
+            Ángulo llano: Mide 180°. Igual que si juntamos dos ángulos rectos.<br><br>
+            Con una imagen lo verás más fácil. Todo ángulo comprendido en la zona rosa es un ángulo agudo, y todo ángulo comprendido en la zona azul es un ángulo obtuso.
+            <br><br>
+            <img src="img/2.png">
+		</h2></center>
+	
+<br><br>
+	<form name="text" action="" method="get">
+		<label>Valor del Ángulo:</label>
+		<input type="number" name="grados" id="grados">
+		<br><br><br>
+		<input type="button" value="enviar" onclick="runSubmit(this.form,this)">
+		<input type="button" value="borrar" onclick="runSubmit(this.form,this)">
+	</form>
+	</center>
+	<br><br>
+	<center>
+		<div id="resultado"></div>
+	</center>
+	<br><br><br>
+
+</body>
+</html>

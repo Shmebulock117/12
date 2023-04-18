@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: white;
+    background: rgb(137,24,213);
+background: linear-gradient(90deg, rgba(137,24,213,1) 0%, rgba(221,23,23,1) 50%, rgba(236,151,31,1) 100%);
+}
+.content{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+}
+.ejemplo1{
+    flex-direction: row;
+}
+.ejemplo2{
+    flex-direction: row-reverse;
+}
+.ejemplo3{
+    flex-direction: column;
+}
+.ejemplo4{
+    flex-direction: column-reverse;
+}
+.ejemplo5{
+    flex-wrap: nowrap;
+}
+.ejemplo6{
+    flex-wrap: wrap;
+}
+.ejemplo7{
+    flex-wrap: wrap-reverse;
+}
+.ejemplo8{
+    flex-flow: column-reverse wrap;
+}
+.ejemplo9{
+    justify-content: flex-start;
+}
+.ejemplo10{
+    justify-content: flex-end;
+}
+.ejemplo11{
+    justify-content: center;
+}
+.ejemplo12{
+    justify-content: space-between;
+}
+.ejemplo13{
+    justify-content: space-around;
+}
+.ejemplo14{
+    justify-content: space-evenly;
+}
+.ejemplo15{
+    align-items: flex-start;
+}
+.ejemplo16{
+    align-items: flex-end;
+}
+.ejemplo17{
+    align-items: center;
+}
+.ejemplo18{
+    align-items: stretch;
+}
+.ejemplo19{
+    align-items: baseline;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: violet;
+}

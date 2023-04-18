@@ -1,0 +1,23 @@
+body{
+	background-color: orange;
+}
+h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 80px;
+	color: red;
+	text-shadow: 4px 4px 4px white;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	color: mediumpurple;
+	text-shadow: 4px 6px 2px pink;
+}
+img{
+    transition: all 0.5s linear;
+    border-radius: 15%;
+  }
+  img:hover{
+    transform: scale(0.9);
+  }
+

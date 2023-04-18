@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0ox;
+    box-sizing: border-box;
+  }
+  .emoji{
+    width: 60%;
+    height: 50%;
+    border: 2px solid whitesmoke;
+    background: black;
+    margin: 10px;
+  }
+  .cara{
+    border-radius: 50% 50% 50% 50%;
+    width: 500px;
+    height: 500px;
+    border: 2px solid whitesmoke;
+    background: burlywood;
+    margin: 10px;
+  }
+  .ojoder{
+    position: absolute;
+    border-radius: 50% 50% 50% 50%;
+    width: 50px;
+    height: 50px;
+    border:2px solid white;
+    top: 150px;
+    left: 150px;
+    background: black;
+    margin: 10px;
+  }
+  .ojoizq{
+    position: absolute;
+    border-radius: 50% 50% 50% 50%;
+    width: 50px;
+    height: 50px;
+    border:2px solid white;
+    top: 150px;
+    right: 850px;
+    background: black;
+    margin: 10px;
+  }
+  .nariz{
+    position: absolute;
+    border-radius:60% 60% 0% 0%;
+    width: 50px;
+    height: 50px;
+    border:2px solid white;
+    top: 250px;
+    left: 225px;
+    background: black;
+    margin: 10px;
+  }
+  .boca{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    border:2px solid white;
+    top: 380px;
+    left: 130px;
+  background: linear-gradient(red,red);
+    margin: 10px;
+  }
